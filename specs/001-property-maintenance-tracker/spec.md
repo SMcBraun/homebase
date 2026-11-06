@@ -224,3 +224,14 @@ The following endpoint catalog defines the expected product-facing API contract.
 - **SC-006**: At least 90% of users in a usability test can identify the next due date for a recurring task after recording its current occurrence as complete.
 - **SC-007**: In access-control verification scenarios, no user can view or change another account's properties, tasks, schedules, or completion history.
 - **SC-008**: At least 90% of users who complete the core property-and-task setup rate the dashboard as clear enough to identify their next maintenance action.
+
+## Technical Requirements
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript in strict mode (no use of `any`)
+- **Styling**: Tailwind CSS (utility-first)
+- **Code quality**: ESLint and Prettier, using the shared `.prettierrc`
+- **Components**: Server Components by default; Client Components only where interactivity is needed
+- **Data and authentication**: Database and sign-in provider to be selected by the team during Week 03 data modeling
+- **Hosting**: Vercel
+- **Team workflow**: Feature branches (`feature/task-name`) and pull requests reviewed by at least one teammate before merging into `main`
