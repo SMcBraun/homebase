@@ -44,3 +44,7 @@ HomeBase helps homeowners track property maintenance, so they always know what h
 There is not yet a test runner or test script in `package.json`. Feature plans
 must identify an appropriate test approach, and the team must select and
 configure a runner before relying on automated feature-test coverage.
+
+## Team Notes
+
+- Week 03 branch practice by Sina
