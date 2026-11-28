@@ -5,8 +5,9 @@
 import type { Metadata } from "next";
 import PropertyManager from "./PropertyManager";
 
+// Short title only (issue #19): the root layout template adds " | HomeBase".
 export const metadata: Metadata = {
-  title: "My Properties | HomeBase",
+  title: "My Properties",
   description: "Add, edit, and remove the properties you take care of.",
 };
 
