@@ -7,8 +7,9 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import EditPropertyForm from "./EditPropertyForm";
 
+// Short title only (issue #19): the root layout template adds " | HomeBase".
 export const metadata: Metadata = {
-  title: "Edit Property | HomeBase",
+  title: "Edit Property",
   description: "Change a property's name, location, or notes.",
 };
 
